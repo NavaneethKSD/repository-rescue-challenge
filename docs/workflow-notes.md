@@ -1,17 +1,23 @@
-# Workflow Notes
+Workflow Issues
 
-This repository is intentionally set up with repository history and branch workflow issues:
+This repo contains common Git issues for review and cleanup practice.
 
-- direct commits on `main`
-- poor commit messages
-- bad branch names
-- a branch with a merge conflict in `src/config.js`
-- an abandoned branch containing partial changes
+Current Issues
 
-Use this file as a reference when reviewing the repo history and workflow.
+Direct commits to main
 
-- current workflow is inconsistent and needs cleanup.
+Unclear commit messages
 
-- small update from test123 branch.
+Bad branch names (test123, newbranch)
 
-- abandoned note on newbranch.
+Merge conflict in src/config.js
+
+Abandoned, unmerged branches
+
+Next Steps
+
+Fix the conflict in src/config.js
+
+Clean up branch names
+
+Delete stale branches and protect main
